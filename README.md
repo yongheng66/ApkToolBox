@@ -1,4 +1,6 @@
 # ApkToolBox Android一体式工具箱
+2023/JUN/06
+做做更新 updates
 
 ##### 主要功能
 * 反编译apk，回编译apk，支持批量
@@ -18,13 +20,6 @@ PS:注意在使用时，尽量不要使用中文路径，不然可能导致编�
 
 #### 下载
    移步Release
-
-#### 国内中转下载：
-[吾爱破解云盘](https://down.52pojie.cn/Tools/Android_Tools/ApkToolBox_v1.6.4.zip)
-
-![Markdown](https://raw.githubusercontent.com/Qrilee/ApkToolBox/master/screenshots/pic.png)
-
-
 
 
 
