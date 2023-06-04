@@ -3,7 +3,7 @@
     public class Constants
     {
         public static  string ApkSigner = ".\\tool\\apksigner.jar";
-        public static string KeyStore = ".\\tool\\debug.keystore";
+        public static string KeyStore = ".\\tool\\game_keystore.jks";
         public static string Smali = ".\\tool\\smali.jar";
         public static string MySign = ".\\tool\\config.conf";
         public static string OdexFramework = ".\\tool\\framework\\";

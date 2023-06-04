@@ -26,7 +26,7 @@
         {
             return
                 string.Format(
-                    "-jar " + Constants.ApkSigner + " -keystore \"{0}\" -alias  \"{1}\"  -pswd  \"{2}\"  \"{3}\"",
+                    "-jar " + Constants.ApkSigner + " sign --ks \"{0}\" --ks-key-alias  \"{1}\"  --ks-pass  pass:\"{2}\"  --key-pass pass:\"{3}\"",
                     keypath, ais, keyw, apkpath);
         }
 
@@ -78,7 +78,7 @@
 
         public static string GetSignArg(string apkName)
         {
-            return string.Format("-jar " + Constants.ApkSigner + " -keystore " + Constants.KeyStore + "  -alias androiddebugkey -pswd android " + apkName);
+            return string.Format("-jar " + Constants.ApkSigner + " sign --ks " + Constants.KeyStore + "  --ks-key-alias artw --ks-pass pass:232425 --key-pass pass:232425 " + apkName);
         }
     }
 }
